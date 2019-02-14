@@ -1,56 +1,67 @@
 body{
-    font-family: ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #777;
     background: #777;
     width: 960px;
     font-size: 18px;
-    width: 495px;
+      
 }
-
-header{
-  
+header{  
     background: #ebebeb;
     width: 960px;
     height: 75px;
     text-align: center;
     font-size: 18px;
-    color: black
-
+    color: black;
+    border: 2px solid black;
 }
 nav{
     background: #ebebeb;
     width: 960px;
     height: 75px;
     text-align: center;
+    border: 2px solid black;
+    margin-top: 10px; 
+    margin-bottom: 10px;
 }
-
-aside{
+.aside{
     background: #ebebeb;
-    width: 400px;
-    height: 400px;
-    margin: 300px;   
+    width: 450px;
+    height: 500px;
+    border: 2px solid black;
+    position: static;
+    position: relative;
+  left: 510px;
+  bottom: 500px;
+  text-align: center;            
+}
+.section{
+    background: #ebebeb;
+    width: 450px;   
+    height: 495px;  
     text-align: center;
     font-size: 18px;
-    color: black 
-       
-}
-section{
-    background: #ebebeb;
-    width: 400px;
-    height: 400px;
-    margin: 300px;   
-    text-align: center;
-    font-size: 18px;
-    color: black 
-}
-h1{
+    color: black;  
+    border: 2px solid black; 
+         
     
+}
+.article{
+    background: #777;
+    height: 305px;
+    width: 450px;
+    margin-top: 20%;
+    text-align: center;
+}
+h1{    
     background: darkgray;
     width: 350px;
     height: 75px;
     text-align: center;
     font-size: 18px;
-    color: black
+    color: black;
+    margin: 27px;
+    border: 2px solid black;
 }    
   p{
     background: darkgray;
@@ -58,20 +69,18 @@ h1{
     height: 75px;
     text-align: center;
     font-size: 18px;
-    color: black
-  }  
-
-div {
-    background-color: lightgrey;
-    width: 300px;
-    border: 25px solid black;
-    padding: 25px;
-    margin: 25px;
-  }
+    color: black;
+    margin: 27px;
+    border: 2px solid black;
 }
 footer{
     background: #ebebeb;
     width: 960px;
     height: 75px;
     text-align: center;
+    border: 2px solid black; 
+    position: static;
+    position: relative;
+    left: 0px;
+    bottom: 495px;   
 }
